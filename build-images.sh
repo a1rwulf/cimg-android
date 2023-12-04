@@ -3,5 +3,6 @@
 
 docker build --file 2023.11/Dockerfile -t cimg/android:2023.11.1 -t cimg/android:2023.11 --platform linux/amd64 .
 docker build --file 2023.11/ndk/Dockerfile -t cimg/android:2023.11.1-ndk -t cimg/android:2023.11-ndk --platform linux/amd64 .
-docker build --file 2023.11/node/Dockerfile -t cimg/android:2023.11.1-node -t cimg/android:2023.11-node --platform linux/amd64 .
-docker build --file 2023.11/browsers/Dockerfile -t cimg/android:2023.11.1-browsers -t cimg/android:2023.11-browsers --platform linux/amd64 .
+docker build --file 2023.11/flutter/Dockerfile -t ci/android:2023.11.1-flutter-3.16.2 -t cimg/android:2023.11.1-flutter-3.16.2 -t cimg/android:2023.11-flutter-3.16.2 --platform linux/amd64 .
+#docker build --file 2023.11/node/Dockerfile -t cimg/android:2023.11.1-node -t cimg/android:2023.11-node --platform linux/amd64 .
+#docker build --file 2023.11/browsers/Dockerfile -t cimg/android:2023.11.1-browsers -t cimg/android:2023.11-browsers --platform linux/amd64 .
